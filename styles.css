@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
+    margin: auto;
+    background-color: #E5E5E5;;
+    /* font-family: 'Delius Unicase', cursive; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+h3{
+    font-family: 'Delius Unicase', cursive;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 80px;
+    background: white;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill minmax(10px, auto));
+    grid-template-rows: auto;
+    gap: 30px;
+    padding-left: 135px;
+    padding-right: 135px;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.item {
+   height: 370px;
+   border-radius: 20px;
+   background-repeat: no-repeat;
+   background-color: white;
+} 
+
+.item-tall {
+    height: 770px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-color: white;
+ } 
+
+ .item .item-tall :hover{
+    opacity: 0;
+
+ }
+
+.item1-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/1-1.png);
+       
+}
+.item1-2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/1-2.png);
+}
+
+.item1-3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/1-3.png);
+}
+.item1-4{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    /* grid-column-start: 2;
+    grid-column-end: 4; */
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/1-4.png);
+}
+
+.item1-5{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/1-5.png);
+       
+}
+.item1-6{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/1-6.png);
+}
+
+.item2-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/2-1.png);
+       
+}
+.item2-2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/2-2.png);
+}
+
+.item2-3{
+    /* grid-area: 1 / 2 / 3 / 4; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/2-3.png);
+}
+
+.item2-4{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/2-4.png);
+}
+.item2-5{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/2-5.png);
+       
+}
+.item2-6{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/2-6.png);
+}
+.item3-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/3-1.png);
+}
+
+.item3-2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/3-2.png);
+}
+.item3-3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/3-3.png);
+}
+.item3-4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/3-4.png);
+}
+
+.item3-5{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/3-5.png);
+}
+
+.item3-6{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/3-6.png);
+}
+
+.item3-7{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/3-7.png);
+}
+
+.item3-8{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/3-8.png);
+}
+
+.item3-9{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/3-9.png);
+       
+}
+.item3-10{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-image: linear-gradient(360deg, 
+    #241F24 0%, rgba(91, 91, 91, 0.447552) 
+    34.11%, rgba(187, 186, 192, 0.26) 62.5%), url(images/3-10.png);
+}
+.back{
+    display: block;
+    background-color: white;
+    padding-bottom: 120px;
+}
